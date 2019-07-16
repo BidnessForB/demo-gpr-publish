@@ -1,5 +1,6 @@
 #!/bin/sh
 
+set -e -u -o pipefail
 
 echo hello
 git config user.name "GPR User"
