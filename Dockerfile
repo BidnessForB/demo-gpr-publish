@@ -1,5 +1,4 @@
 FROM node:11.12
-#VOLUME /usr/src/app/source
 LABEL "com.github.actions.name"="GPR Publish"
 LABEL "com.github.actions.description"="Publish to GPR using NPM"
 LABEL "com.github.actions.icon"="message-circle"
