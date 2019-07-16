@@ -2,7 +2,7 @@
 
 set -e -u -o pipefail
 
-echo hello
+echo "hello"
 
 #git config user.name "GPR User"
 #git config user.email "noreply@github.com"
