@@ -1,4 +1,5 @@
-FROM node:11.12
+FROM node:10
+
 LABEL "com.github.actions.name"="GPR Publish"
 LABEL "com.github.actions.description"="Publish to GPR using NPM"
 LABEL "com.github.actions.icon"="message-circle"
