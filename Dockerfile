@@ -8,7 +8,6 @@ LABEL "repository"="http://github.com/test-gpr"
 LABEL "homepage"="http://github.com/actions"
 LABEL "maintainer"="bryancross <bryancross@github.com>"
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
 
+COPY "entrypoint.sh" "/entrypoint.sh"
+ENTRYPOINT ["/entrypoint.sh"]
