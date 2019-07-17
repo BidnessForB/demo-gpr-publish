@@ -2,8 +2,6 @@
 
 set -e -u -o pipefail
 
-printf "hello\n"
-
 git config user.name "GPR User"
 git config user.email "noreply@github.com"
 printf "hello again\n"
