@@ -2,7 +2,7 @@
 
 set -e -u -o pipefail
 
-printf "FOO: ${FOO}"
+printf "FOO: ${FOO}\n"
 git config user.name "GPR User"
 git config user.email "noreply@github.com"
 printf "Publishing to GPR...\n"
